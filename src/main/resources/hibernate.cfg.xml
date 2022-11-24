@@ -6,9 +6,10 @@
         <!-- JDBC Database connection settings -->
         <property name="connection.driver_class">org.postgresql.Driver</property>
 <!--        <property name="connection.url">jdbc:postgresql://${APP_DB_HOST}:${APP_DB_PORT}/${APP_DB_NAME}</property>-->
-        <property name="connection.url">${APP_DB_URI}</property>
-        <property name="connection.username">${APP_DB_USER}</property>
-        <property name="connection.password">${APP_DB_PASS}</property>
+<!--        <property name="connection.url">${APP_DB_URI}</property>-->
+        <property name="connection.url">jdbc:postgres://uvbagzyfkeycxy:e0fe1b97d08796ba2746a01ed9e9a910f3ba5c998769249af70e09b46e9f41d5@ec2-34-207-12-160.compute-1.amazonaws.com:5432/ddvc30vdquls00</property>
+        <property name="connection.username">uvbagzyfkeycxy</property>
+        <property name="connection.password">e0fe1b97d08796ba2746a01ed9e9a910f3ba5c998769249af70e09b46e9f41d5</property>
         <!-- JDBC connection pool settings ... using built-in test pool -->
         <property name="connection.pool_size">1</property>
         <!-- Select our SQL dialect -->
