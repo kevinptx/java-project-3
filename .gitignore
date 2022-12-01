@@ -37,7 +37,6 @@ buildNumber.properties
 .mvn/wrapper/maven-wrapper.jar
 
 ### application.properties and hibernate.cfg.xml
-
 src/main/resources/application.properties
 src/main/resources/hibernate.cfg.xml
 
