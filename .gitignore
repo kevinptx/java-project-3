@@ -36,8 +36,10 @@ buildNumber.properties
 # https://github.com/takari/maven-wrapper#usage-without-binary-jar
 .mvn/wrapper/maven-wrapper.jar
 
-.main/resources/application.properties
-.main/resources/hibernate.cfg.xml
+### application.properties and hibernate.cfg.xml
+resources/
+application.properties
+hibernate.cfg.xml
 
 # Gradle work directory and caches
 .gradle
